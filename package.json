@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-jwt-jti",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "express",
+    "jwt",
+    "jti",
+    "mongodb"
+  ],
+  "license": "ISC",
+  "author": "codingwithsayantan",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}
